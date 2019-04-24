@@ -1,0 +1,14 @@
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+
+    <g>
+        <title>background</title>
+        <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+    </g>
+    <g>
+        <title>Layer 1</title>
+        <polygon fill="#FFFFFF" id="svg_1" points="0,5 8,9 15,5.5 15,14 16,14 16,5 8,1 "/>
+        <polygon fill="#214dd0" id="svg_2" points="3,7.059 3,11.5 8,14 13,11.5 13,7.059 8,9.559 "/>
+        <ellipse stroke="#000" transform="rotate(-53.13011169433594 2.4971263408660898,8) " id="svg_5" cy="8"
+                 cx="2.497126" fill-opacity="null" stroke-opacity="null" stroke-width="0.2" fill="none"/>
+    </g>
+</svg>

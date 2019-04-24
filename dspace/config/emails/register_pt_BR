@@ -1,0 +1,16 @@
+# E-mail sent to DSpace users when they register for an account
+#
+# Parameters: {0} is expanded to a special registration URL
+#
+# See org.dspace.core.Email for information on the format of this file.
+#
+Subject: Repositório CAPES - Registro de novo usuário
+Para completar o registro, por favor clique no link abaixo:
+
+  {0}
+
+Caso precise de ajuda com sua conta, por favor entre em contato pelo
+email educapes@capes.gov.br ou pelo telefone 0800 616161.
+
+Atenciosamente,
+Equipe CAPES.

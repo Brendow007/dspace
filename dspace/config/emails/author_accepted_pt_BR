@@ -1,0 +1,15 @@
+# Email sent to eduCapes users after refusal of author request.
+#
+# Parameters: {0} refusal cause
+# Parameters: {1} is expanded to a special URL
+#
+# See org.dspace.core.Email for information on the format of this file.
+#
+Subject: Cadastro de autor liberado
+Cara usuário(a).
+
+Sua solicitação de cadastro foi aceita pela equipe do eduCapes. Para iniciar o envio de materiais, efetue o login utilizando seu e-mail 
+e senha cadastradas no repositório e siga as instruções disponíveis no menu "Como envio meu material?".
+  
+Atenciosamente,
+Equipe CAPES.

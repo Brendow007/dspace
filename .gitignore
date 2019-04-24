@@ -1,0 +1,15 @@
+﻿# ignore files
+nb-configuration.xml
+nbactions.xml
+settings_docker.xml
+settings.xml
+.classpath
+.project
+.settings
+.buildpath
+.idea
+*.bak
+*.iml
+# folders
+*target
+*classes

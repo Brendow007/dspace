@@ -1,0 +1,25 @@
+/*
+@media(min-width:767px) {
+    .navbar {
+
+        -webkit-transition: background .1s ease-in-out,padding .1s ease-in-out;
+        -moz-transition: background .1s ease-in-out,padding .1s ease-in-out;
+        transition: background .1s ease-in-out,padding .1s ease-in-out;
+    }
+
+    .top-nav-collapse {
+    padding-top: 30px;
+    height: 95px !important;
+    }
+
+    .top-nav-collapse img   {
+        width: 75%;
+        position: relative;
+
+        top: 10px
+
+    }
+}
+
+
+*/

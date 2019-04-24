@@ -1,0 +1,21 @@
+# Item Archived email message
+#
+# {0}  Title of submission
+# {1}  Name of collection
+# {2}  handle 
+#
+Subject: Repositório CAPES: Material Aprovado e Arquivado
+
+Você enviou: {0}
+
+Para a coleção: {1}
+
+Seu material foi aceito e arquivado no repositório, e 
+recebeu o seguinte identificador:
+{2}
+
+Por favor, utilize este identificado ao citar seu material.
+
+Obrigado!
+
+Equipe CAPES.

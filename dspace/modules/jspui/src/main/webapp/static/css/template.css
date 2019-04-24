@@ -1,0 +1,628 @@
+/* Definições para o rodapé do Governo Federal
+------------------------------------------------------
+  Temas:
+    Verde: #00420c
+    Azul: #0042b1
+    Amarelo: #2c66ce
+*/
+@import url(font-awesome.css);
+
+/*------------------------ Partners --------------------------------------*/
+.table-partner{
+  background: #f2f2f2;
+}
+.blue-btn:hover,
+.blue-btn:active,
+.blue-btn:focus,
+.blue-btn {
+  background: transparent;
+  border: solid 1px #27a9e0;
+  border-radius: 3px;
+  color: #27a9e0;
+  font-size: 16px;
+  margin-bottom: 20px;
+  outline: none !important;
+  padding: 10px 20px;
+}
+
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+  height: 43px;
+  margin-top: 0;
+}
+
+.fileUpload input.uploadlogo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  width: 100%;
+  height: 42px;
+}
+
+/*Chrome fix*/
+input::-webkit-file-upload-button {
+  cursor: pointer !important;
+  height: 42px;
+  width: 100%;
+}
+
+.btn-partner{
+  width: 80%;
+
+}
+
+.tr-partner{
+  text-align: center;
+}
+.th-partner{
+  text-align: center;
+}
+
+.img-logo-partner{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.carousel-inner > .active{
+  text-align: center;
+  height: 200px;
+}
+.carousel-inner > .item{
+  text-align: center;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+  display: unset;
+}
+
+.input-partner {
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+
+.label-partner {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.input-partner[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.input-partner[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container-partner {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25-partner {
+  float: left;
+  width: 15%;
+}
+
+.col-75-partner {
+  float: left;
+  width: 80%;
+  margin-top: 15px;
+}
+
+.row-partner:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25-partner, .col-75-partner, input-partner[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/*------------------------ Partners --------------------------------------*/
+
+
+.page-header #busca-filtros {
+  margin-top: 10px;
+}
+.page-header #busca-filtros .busca-filtro-param-ref {
+  display: none;
+}
+.page-header #busca-filtros .btn:focus {
+  box-shadow: none;
+  outline: none;
+}
+.page-header #busca-filtros .btn-success,
+.page-header #busca-filtros .btn-danger {
+  background-color: transparent;
+  border-color: #fff;
+}
+.page-header #busca-filtros .btn-success:hover,
+.page-header #busca-filtros .btn-danger:hover {
+  background-color: #007038 !important;
+  box-shadow: none;
+}
+.page-header #busca-filtros .form-control {
+  background-color: transparent;
+  width: auto;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.page-header #busca-filtros .form-control:focus {
+  outline: none;
+  background-color: #007038 !important;
+  box-shadow: none;
+}
+.page-header #busca-filtros .form-control::-webkit-input-placeholder {
+  color: #fff;
+}
+.page-header #busca-filtros .form-control option {
+  padding: 5px;
+}
+.page-header #busca-filtros .btn-link {
+  color: #fff;
+}
+.page-header #busca-filtros .btn-link:hover {
+  color: #003d1e !important;
+}
+.page-header #filtro-tags {
+  margin-top: 5px;
+}
+.page-header #filtro-tags .label-default {
+  background-color: #007038;
+  padding: 5px;
+  font-weight: normal;
+  font-size: .85em !important;
+}
+.page-header #filtro-tags .label-default a.glyphicon {
+  color: #fff;
+  display: inline-block;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.page-header #filtro-tags .label-default a.glyphicon:hover {
+  color: #00562b;
+}
+.page-content h2 {
+  color: #58a987;
+  font-size: 1.4em;
+}
+.page-content .banner a {
+  display: block;
+  background-color: #fff;
+}
+.page-content .panel {
+  background-color: #fff;
+  border-radius: 0;
+}
+.page-content .panel .panel-heading h3 {
+  font-size: 1.3em;
+  font-style: italic;
+  font-weight: bold;
+}
+.page-content .panel .panel-body p {
+  font-size: .9em;
+}
+.page-content .panel .panel-body .btn-default {
+  border-color: #333;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: bold;
+}
+.page-content .panel-login {
+  box-shadow: none;
+}
+.page-content .panel-login h4 {
+  color: #58a987;
+  font-size: 1.4em;
+  font-style: italic;
+}
+.page-content .panel-login .btn-success {
+  background-color: #58a987;
+  border-color: #007a3d;
+}
+.page-content .panel-login .form-control {
+  border: 1px solid #ccc;
+}
+.page-content .panel-login .input-group-addon,
+.page-content .panel-login .form-control {
+  border-radius: 0;
+}
+.page-content .panel-login .panel-footer {
+  background-color: transparent;
+}
+.page-content .panel-cadastro {
+  box-shadow: none;
+}
+.page-content .panel-cadastro h4 {
+  color: #648C80;
+  font-size: 1.4em;
+  font-style: italic;
+}
+.page-content .panel-cadastro .btn {
+  background-color: #648C80;
+  color: #fff;
+}
+.page-content .panel-resultados .panel-heading h3 {
+  color: #58a987;
+  margin: 5px 0 0 0;
+  font-size: 1.5em;
+}
+.page-content .panel-resultados .panel-heading .text-info {
+  color: #666;
+  font-size: .85em;
+  font-style: italic;
+}
+.page-content .panel-resultados .tools-bar {
+  text-align: right;
+  padding-top: 10px;
+}
+.page-content .panel-resultados .tools-bar nav {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+.page-content .panel-resultados .tools-bar nav ul {
+  margin: 0;
+}
+.page-content .panel-resultados .tools-bar nav li a {
+  border: 0;
+  color: #312c5d;
+}
+.page-content .panel-resultados .tools-bar nav li:first-child a,
+.page-content .panel-resultados .tools-bar nav li:last-child a {
+  background-color: #58a987;
+  border: 1px solid #58a987;
+  color: #fff;
+  border-radius: 0;
+}
+.page-content .panel-resultados .tools-bar nav li:first-child a {
+  margin-right: 10px;
+}
+.page-content .panel-resultados .tools-bar nav li:last-child a {
+  margin-left: 10px;
+}
+.page-content .panel-resultados .tools-bar nav li.active a {
+  background-color: #fff;
+  border: 1px solid #312c5d;
+  font-weight: bold;
+}
+.page-content .panel-resultados .tools-bar .form-control {
+  margin: -2px 0 0 0;
+  border: 1px solid #312c5d;
+  border-radius: 0;
+}
+.page-content .panel-resultados .panel-body h4 {
+  color: #58a987;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.page-content .panel-resultados .panel-body p {
+  color: #666;
+  font-size: .9em;
+  margin: 0;
+  font-style: italic;
+}
+.page-content .panel-detalhe h3 {
+  color: #58a987;
+  font-size: 1.6em !important;
+}
+.page-content .panel-detalhe h4 {
+  color: #58a987;
+  margin-top: 30px;
+}
+.page-content .panel-detalhe a {
+  color: #312c5d;
+}
+.page-content .panel-detalhe h5 {
+  border-bottom: 1px solid #ddd ;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+.page-content .panel-detalhe h5 small {
+  display: block;
+  margin-top: 5px;
+}
+.page-content .panel-detalhe ul {
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+.page-content .panel-detalhe ul li {
+  list-style: none;
+  margin: 0;
+}
+.page-content .panel-detalhe tr:last-child {
+  border-bottom: 1px solid #ddd;
+}
+.page-content .panel-detalhe th {
+  white-space: nowrap;
+}
+.breadcrumbs ul {
+  display: table;
+  font-size: .85em;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+.breadcrumbs ul li {
+  float: left;
+  list-style: none;
+}
+.breadcrumbs ul li:before {
+  font-family: 'Glyphicons Halflings';
+  content: "\e258";
+  font-size: .8em;
+  margin: 0 3px;
+}
+.breadcrumbs ul li:first-child:before {
+  content: "";
+}
+.breadcrumbs ul li:last-child {
+  font-weight: bold;
+}
+.breadcrumbs ul li a {
+  color: #333;
+}
+.btn-busca {
+  border: 1px solid #fff;
+  color: #fff;
+}
+.btn-busca:hover {
+  color: #fff;
+  background-color: #007038;
+}
+.tituloMenu {
+  width: 180px;
+  background: #58a987;
+  min-height: 53px;
+  margin: 5px 0 10px 0;
+  padding: 1px 5px 4px 5px;
+  position: relative;
+  line-height: 1em;
+  font-style: italic;
+  font-size: 1em;
+  font-weight: 400;
+  color: #fff;
+}
+.tituloMaisConteudo {
+  border-top: 2px solid #3268ba;
+  background: #eeeff2;
+  min-height: 40px;
+  margin: 10px 0;
+  padding: 10px 5px 4px 5px;
+  position: relative;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 400;
+  color: #3268ba;
+  text-align: right;
+}
+.itemMenu {
+  font-size: 1.2em;
+  padding: 0;
+}
+.itemMenu ul {
+  font-size: .85em;
+  margin: 0 0 20px 0;
+  list-style-type: none;
+  padding: 0;
+}
+.itemMenu ul li {
+  display: block;
+  list-style: none;
+  /*border-bottom: 1px solid #eee;*/
+  padding: 0;
+  /*padding: 5px 10px 5px 20px;*/
+}
+.itemMenu ul a {
+  color: #172938;
+}
+.boxIcones {
+  display: block;
+  padding-top: 15px;
+  width: 70px;
+  height: 70px;
+  font-size: 2em;
+  border-radius: 50%;
+  background-color: #58a987;
+  color: #fff;
+  text-align: center;
+  margin-left: 38%;
+}
+.boxAreaConhecimento a {
+  display: block;
+  padding-top: 10px;
+  padding-left: 3px;
+  width: 70px;
+  height: 70px;
+  font-size: 2em;
+  border-radius: 50%;
+  background-color: #58a987;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+.boxAreaConhecimento a:hover {
+  background-color: #003d1e !important;
+}
+.centraliza {
+  margin: 0 auto;
+  width: 50%;
+}
+.legendaIcon {
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  font-size: larger;
+}
+.bgIconBusca {
+  display: block;
+  padding-top: 10px;
+  padding-left: 3px;
+  width: 70px;
+  height: 70px;
+  font-size: 2em;
+  border-radius: 50%;
+  background-color: #58a987;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+.bgIconBuscaLegenda {
+  display: block;
+  padding-top: 2px;
+  padding-left: 0;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 15px;
+  background: #565379;
+
+}.bgIconBuscaLegendaNoback {
+   display: block;
+   padding-top: 2px;
+   padding-left: 0;
+   width: 45px;
+   height: 45px;
+   border-radius: 50%;
+   position: relative;
+   margin-right: 15px;
+   background: #565379;
+ }
+.listaBusca {
+  padding: 5px;
+  background-color: #f60;
+  height: 100px;
+  display: block;
+  color: #fff;
+}
+.listaBusca a:hover {
+  background-color: #ccc;
+}
+.tituloItemSelecionado {
+  font-style: italic;
+  font-weight: bold;
+  color: #58a987;
+  transition: all 0.3s ease;
+}
+.btnItemSelecionado {
+  width: auto;
+  background-color: #36b782;
+  color: #fff !important;
+  border-radius: 9px;
+  font-size: 0.8em;
+  transition: all 0.3s ease;
+}
+
+.btnItemSelecionado:hover {
+  width: auto;
+  background-color: #323232;
+  color: #fff !important;
+  border-radius: 9px;
+  font-size: 0.8em;
+}
+.carousel-control {
+  width: 5%;
+}
+/*Star Rating - start*/
+fieldset,
+label {
+  margin: 0;
+  padding: 0;
+}
+/****** Style Star Rating Widget *****/
+.rating {
+  border: none;
+  float: left;
+}
+.rating > input {
+  display: none;
+}
+.rating > label:before {
+  margin: 4px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+.rating > .half:before {
+  content: "\f089";
+  position: absolute;
+}
+.rating > label {
+  color: #ddd;
+  float: right;
+}
+.headerMenus {
+  padding: 8px;
+  font-size: 0.8em;
+  display: inline-block;
+  border-left: 1px solid #ccc;
+  color: #ccc;
+}
+.headerMenus a {
+  color: #000000;
+}
+#capes-barra {
+  background-color: #DFE5E5;
+  border-bottom: 1px solid #ccc;
+  color: #aaa;
+  padding: 6px 0;
+}
+/***** CSS Magic to Highlight Stars on Hover *****/
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: #FFD700;
+}
+/* hover previous stars in list */
+.rating > input:checked + label:hover,
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+.rating > input:checked ~ label:hover ~ label {
+  color: #FFED85;
+}
+
+
+.cc-text{
+  text-align: justify;
+}
+
+.img-cursos{
+  /*max-width: 70%;*/
+  /*width: 70%;*/
+}
+
+.li-cursosNacionais{
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.ul-cursoslist{
+  list-style-type: none;
+}
+/*Star Rating - end*/
+
+/*# sourceMappingURL=template.css.map */

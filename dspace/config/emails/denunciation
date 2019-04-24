@@ -1,0 +1,29 @@
+# E-mail sent to denounce a item
+#
+# Parameters: {0} DSpace server URL
+#             {1} Date & time
+#             {2} Session ID
+#             {3} URL + HTTP parameters, if any
+#             {4} User details
+#             {5} IP address
+#             {6} pearson
+#             {7} email
+#             {8} reason
+#             {9} item id
+
+#
+# See org.dspace.core.Email for information on the format of this file.
+#
+Subject: DSpace: Denuncia enviada.
+Denuncia de item realizada em {0}:
+
+Data da denuncia:    {1}
+Session ID:          {2}
+Usuario logado:      {4}
+IP address:          {5}
+Nome do denunciante: {6}
+Email:               {7}
+Item ID:             {9}
+
+Motivo:
+{8}

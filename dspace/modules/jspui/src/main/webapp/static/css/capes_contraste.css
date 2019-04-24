@@ -1,0 +1,389 @@
+
+/*--------------------------- GERAL -----------------------------*/
+
+body{
+    background-color: #000000;
+}
+
+*{
+    color: #FFFF00;
+}
+
+a{
+    color: #FFFF00;
+}
+
+/*--------------------------- HEADER -----------------------------*/
+
+.page-content .panel{
+    background-color: #000;
+
+}
+.boxAreaConhecimento a {
+background-color: #ffe838;
+
+}
+
+
+#sistema-header .navbar-default .navbar-nav a:hover{
+    background-color: #a9a9aa;
+}
+.nav > li > a{
+    color: yellow;
+}
+
+.nav-tabs > li > a {
+    color: yellow;
+}
+.navbar-nav > li > .dropdown-menu {
+background-color: black;
+}
+
+.itemMenu ul li {
+background: black;
+}
+
+.row{
+background: black;
+
+}
+.tituloMenu {
+background: black;
+}
+
+.itemMenu ul a {
+    color: yellow;
+}
+
+#capes-barra {
+    background-color: black;
+}
+.headerMenus a{
+    color: yellow;
+}
+.page-header {
+    background-color: black;
+
+}
+.thumbnail-wrapper{
+    background-color: #000000;
+}
+.artifact-description a {
+color: yellow;
+}
+
+
+.legendaIcon {
+    color: yellow;
+}
+
+#sistema-header {
+    background-color: #000000;
+}
+
+#sistema-header .navbar-default{
+    background-color: black;
+}
+#sistema-header .navbar-default .navbar-nav a{
+    color: yellow;
+    background: black;
+}
+.bg {
+    color: yellow;
+    background-color: black;
+}
+img{
+    background: #000000;
+}
+
+#navegacao{
+    background-color: #1c1c1c;
+    border-bottom: 2px solid #FFFF00;
+}
+
+#navegacao a:hover{
+    background-color: #3e67b1;
+}
+
+#cabecalho *{
+    color: #FFFF00;
+}
+
+#navAcessibilidade ul {
+    border-bottom: 1px dotted #666666;
+}
+
+.dropdown-toggle .glyphicon{
+    color: white;
+}
+
+/*--------------------------- MAIN -----------------------------*/
+
+main h2 {
+    color: #FFFF00;
+}
+
+#buscaHome label {
+    color: #FFFF00;
+}
+
+.logoEducapesHome {
+    background-image: url("../../images/capes/logoEducapesHome2.png");
+}
+
+main form input[type="text"], main form input[type="password"], 
+select, .form-control, textarea, .submit__generated .submit__input {
+    background-color: #262626;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #ff0;
+}
+
+.btn-primary, .btn-info, .btn {
+    background-color: #FFFF00;
+    border-color: #fff;
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    color: #000;
+}
+
+.pagination > .disabled > span,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+    color: #FFFF00;
+    cursor: not-allowed;
+    background-color: #1c1c1c;
+    border-color: #FFFF00;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.428571429;
+    text-decoration: none;
+    background-color: #1c1c1c;
+    border: 1px solid #FFFF00;
+}
+
+#cabecalho .glyphicon, .glyphicon{
+    color: #333; 
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    z-index: 2;
+    color: #000;
+    cursor: default;
+    background-color: #FFFF00;
+    border-color: #FFFF00;
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+    background-color: #FFFF00;
+    color: #000;
+}
+
+.badge {
+    color: #FFFF00;
+}
+
+.btn-default {
+    color: #000;
+    background-color: #FFFF00;
+    border-color: #fff;
+}
+
+.itemDisplayTable *{
+    color: white;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn:hover,
+.open .dropdown-toggle.btn-primary,
+.btn-default:hover {
+    color: #000;
+    background-color: white;
+    border-color: #fff;
+}
+
+#parceirosHome h3 {
+    color: #FFFF00;
+}
+
+
+.panel {
+    background-color: inherit;
+}
+
+.outstanding-header{
+    background: #1c1c1c none repeat scroll 0 0;
+    border-top: 4px solid #2c66ce;
+}
+
+aside h2 {
+    background: #1c1c1c none repeat scroll 0 0;
+    border-top: 3px solid white;
+    color: #FFFF00;
+}
+
+/*.dicovery-image {*/
+    /*background: transparent url("../../image/capes/central-conteudo/btn_imagem_default.png") no-repeat scroll 0 0;*/
+/*}*/
+
+/*.dicovery-video {*/
+    /*background: transparent url("../../image/capes/central-conteudo/btn_video_default.png") no-repeat scroll 0 0;*/
+/*}*/
+
+/*.dicovery-audio {*/
+    /*background: transparent url("../../image/capes/central-conteudo/btn_audio_default.png") no-repeat scroll 0 0;*/
+/*}*/
+
+/*.dicovery-sheet {*/
+    /*background: transparent url("../../image/capes/central-conteudo/btn_planilha_default.png") no-repeat scroll 0 0;*/
+/*}*/
+
+/*.dicovery-text {*/
+    /*background: transparent url("../../image/capes/central-conteudo/btn_texto_default.png") no-repeat scroll 0 0;*/
+/*}*/
+
+/*.dicovery-presentation {*/
+    /*background: transparent url("../../image/capes/central-conteudo/btn_apresentacao_default.png") no-repeat scroll 0 0;*/
+/*}*/
+
+/*.dicovery-other {*/
+    /*background: transparent url("../../image/capes/central-conteudo/btn_outro_default.png") no-repeat scroll 0 0;*/
+/*}*/
+
+.dicovery-image {
+    background-image: url("../../image/img/icon/videos.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 4px 0px 0px 7px;
+
+}
+
+.dicovery-video {
+    background-image: url("../../image/img/icon/videos.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 4px 0px 0px 7px;
+
+}
+
+.dicovery-audio {
+    background: transparent url("../../image/img/icon/audio.svg") no-repeat scroll 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 4px 0px 0px 7px;
+
+}
+
+.dicovery-sheet {
+    background: transparent url("../../image/img/icon/ferramentas.svg") no-repeat scroll 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 4px 0px 0px 7px;
+
+}
+
+.dicovery-text {
+    background: transparent url("../../image/img/icon/digitalBook.svg") no-repeat scroll 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 4px 0px 0px 7px;
+
+}
+
+.dicovery-presentation {
+    background: transparent url("../../image/img/icon/animacao.svg") no-repeat scroll 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 4px 0px 0px 7px;
+
+}
+
+.dicovery-p {
+    background: transparent url("../../image/img/icon/CienciasAgrarias.svg") no-repeat scroll 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 4px 0px 0px 7px;
+
+}
+
+.dicovery-other {
+    background: transparent url("../../image/img/icon/appMovel.svg") no-repeat scroll 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 4px 0px 0px 7px;
+
+}
+
+
+
+label.error{
+    color: #FF0000;
+}
+
+input.error{
+    border: 1px solid #FF0000;
+}
+
+.video-js{
+    border: 1px solid #FFFF00;
+}
+
+.featherlight .featherlight-content, .submit__overlay{
+    background: black !important;
+}
+
+.submit__generated span, .featherlight h3{
+    color: #ffff00 !important;
+}
+
+.featherlight .submit{
+    border: 1px solid #ffff00;
+    background-color: black !important;
+    color: #ffff00;
+    box-shadow: 0 4px 0 #ffff00;
+}
+
+.reportFormTip{
+    color: #fff;
+}
+
+/*--------------------------- FOOTER -----------------------------*/
+
+footer #menus{
+    border-top: 2px solid #FFFF00;
+    background: #000000 none repeat scroll 0 0;
+}
+
+footer #logos{
+    background-color: #1c1c1c;
+}
+
+footer #rodape{
+    background: #000000 none repeat scroll 0 0;
+}
+
+footer nav a, footer nav p {
+    color: #ff0;
+    font-size: 0.9em;
+    line-height: 0.9em;
+}

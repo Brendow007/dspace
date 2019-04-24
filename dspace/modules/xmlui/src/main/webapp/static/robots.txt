@@ -1,0 +1,28 @@
+User-agent: *
+Disallow: /browse
+Disallow: /discover
+Disallow: /search-filter
+Disallow: /xmlui
+Disallow: /advanced-search
+Disallow: /contact
+Disallow: /feedback
+Disallow: /forgot
+Disallow: /login
+Disallow: /register
+Disallow: /search
+
+#Baiduspider
+# entradas adicionais do baidu baseada em
+# https://searchenginewatch.com/sew/news/2067357/bye-bye-crawler-blocking-parasites
+User-agent: Baiduspider
+User-agent: Baiduspider-video
+User-agent: Baiduspider-image
+Disallow: /
+
+#Yandex
+User-agent: Yandex
+Disallow: /
+
+# This should be the FULL URL to your HTML Sitemap. 
+# Make sure to replace "[dspace.url]" with the value of your 'dspace.url' setting in your dspace.cfg file.
+#Sitemap: http://educapes.capes.br/htmlmap

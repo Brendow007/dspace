@@ -1,0 +1,24 @@
+# Rejection email message
+#
+# {0}  Title of submission
+# {1}  Name of collection
+# {2}  Name of the rejector
+# {3}  Reason for the rejection
+# {4}  Link to 'My DSpace' page
+#
+Subject: Repositório CAPES: Material rejeitado
+
+Você enviou: {0}
+
+Para a coleção: {1}
+
+Seu envio foi rejeitado por {2}
+com a seguinte explicação:
+
+{3}
+
+Seu material não foi removido. Você pode acessá-lo na página "Meu Repositório":
+{4}
+
+Atenciosamente,
+Equipe CAPES.

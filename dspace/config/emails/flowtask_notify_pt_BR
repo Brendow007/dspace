@@ -1,0 +1,22 @@
+# Workflow curation task notification email message
+#
+# {0}  Title of submission
+# {1}  Name of collection
+# {2}  Submitter's name
+# {3}  Name of task operating
+# {4}  Task result
+# {5}  Workflow action taken
+#
+Subject: Repositório CAPES: Curation Task Report
+
+Título:         {0}
+Coleção:    {1}
+Enviado por:  {2}
+
+Tarefa atual {3} foi executada com o seguinte resultado:
+
+{4}
+
+Ação tomada na submissão: {5}
+
+Equipe CAPES.

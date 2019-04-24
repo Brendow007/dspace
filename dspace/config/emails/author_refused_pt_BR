@@ -1,0 +1,18 @@
+# Email sent to eduCapes users after refusal of author request.
+#
+# Parameters: {0} refusal cause
+# Parameters: {1} is expanded to a special URL
+#
+# See org.dspace.core.Email for information on the format of this file.
+#
+Subject: Problema no cadastro de autor
+Cara usuário(a).
+
+Sua solicitação de cadastro como autor foi negada pelo seguinte motivo:
+  
+    {0}
+
+Para acessar o formulário de cadastro, acesse o link {1}.
+
+Atenciosamente,
+Equipe CAPES.

@@ -1,0 +1,15 @@
+# E-mail sent to DSpace users when new items appear in collections they are
+# subscribed to
+#
+# Parameters: {0} is the details of the new collections and items
+# See org.dspace.core.Email for information on the format of this file.
+#
+Subject: Inscrições no Repositório CAPES
+Olá.
+Existem novos materiais disponíveis nas coleções nas quais você se
+inscreveu:
+
+{0}
+
+Atenciosamente,
+Equipe CAPES.
